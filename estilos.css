@@ -115,7 +115,7 @@ header label{
     display: flex;
     align-items: left;
     justify-content: center;
-    background: url(img/fondo\ de\ pantalla.jpg);
+    background: url(img/fondo\ de\ pantalla 1.0.jpg) repeat;
     background-size: cover;
     background-position: center;
 }
