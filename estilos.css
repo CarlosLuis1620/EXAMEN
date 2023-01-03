@@ -158,7 +158,7 @@ html{
 }
 }
 
-@media(max-width:768px){
+@media(max-width:758px){
     header label {
         visibility: visible;
         opacity: 1;
@@ -171,7 +171,7 @@ html{
         background: #f0ecec;
         padding: 1rem 2rem;
         border-top: .1rem solid rgba(0, 0, 0, .2);
-        box-shadow:  .5rem 1rem rgba(0, 0, 0, .1);
+        box-shadow:  .2rem 1rem rgba(0, 0, 0, .1);
         transform-origin: top;
         transform: scaleY(0);
         opacity: 0;
@@ -180,8 +180,8 @@ html{
 
     header .navbar a{
         display: block;
-        margin: 2rem 0;
-        font-size: 2rem;
+        margin: 1.5rem 0;
+        font-size: 1.5rem;
     }
 
 header input:checked ~ .navbar{
@@ -210,7 +210,7 @@ font-size: 1.5 rem;
 }
 }
 
-@media(max-width:450px){
+@media(max-width:150px){
     html{
         font-size: 49%;
     }
