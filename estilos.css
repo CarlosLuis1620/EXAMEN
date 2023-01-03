@@ -48,7 +48,7 @@ section{
     color:white;
     cursor: pointer;
     box-shadow: 0 .3rem 1 rem rgba(0, 0, 0, .1);
-    transition: all .1s linear;
+    transition: all .3s linear;
 }
 
 .btn:hover{
@@ -104,7 +104,7 @@ header input{
 }
 
 header label{
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--verde);
     cursor: pointer;
     visibility: hidden;
@@ -118,7 +118,7 @@ header label{
 }
 
 .inicio .image img{
-    width: 25vw;
+    width: 15vw;
     animation: float 3s linear infinite;
 }
 
@@ -132,7 +132,7 @@ header label{
 }
 
 .inicio .content h2{
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     color: #333;
     text-transform: uppercase;
 }
@@ -142,16 +142,16 @@ header label{
     text-transform: uppercase;
 }
 .inicio .content p{
-    font-size:  1.7rem;
+    font-size:  1.9rem;
     color: rgb(3, 3, 3);
-    padding: 1rem 0;
+    padding: 0.5rem 0;
 }
 
 
 
 @media(max-width:1000px){
 html{
-    font-size: 55%;
+    font-size: 50%;
 }
 }
 
@@ -199,16 +199,16 @@ width: 100%;
 }
 
 .inicio .content h3{
-    font-size: 2.6rem;
+    font-size: 3.6rem;
 }
 
 .inicio.content p{
-font-size: 1.0 rem;
+font-size: 0.5rem;
 }
 }
 
 @media(max-width:90px){
     html{
-        font-size: 19%;
+        font-size: 15%;
     }
 }
